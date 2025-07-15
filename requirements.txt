@@ -1,0 +1,45 @@
+# Core voice assistant dependencies
+vosk==0.3.45
+sounddevice==0.4.6
+gTTS==2.5.1
+playsound==1.3.0
+
+# For optional offline TTS (if you want to use pyttsx3 instead of gTTS)
+pyttsx3==2.90
+
+# For data handling
+flask==3.0.3         # For admin panel/web interface (use Django if you prefer)
+flask_sqlalchemy==3.1.1
+
+# For database (SQLite is built-in, but you can use MySQL or PostgreSQL if needed)
+sqlalchemy==2.0.30
+
+# For optional GUI (if you want a desktop interface)
+tk
+
+# For JSON handling (built-in with Python, no need to install)
+
+# For Malayalam NLP (optional, for advanced features)
+indic-nlp-library==0.81
+
+# For speech recognition (if you want to try Google Speech API as fallback)
+SpeechRecognition==3.10.0
+pyaudio==0.2.14
+
+# For web UI (optional, if you want to serve a web-based kiosk)
+flask_cors==4.0.0
+
+# For image handling (optional, for staff photos)
+Pillow==10.3.0
+
+
+vosk==0.3.45
+sounddevice==0.4.6
+gTTS==2.5.1
+playsound==1.3.0
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.12.2
+google-generativeai==0.5.4
+requests==2.31.0
+beautifulsoup4==4.12.3
+Pillow==10.3.0
